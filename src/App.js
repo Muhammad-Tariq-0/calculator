@@ -46,9 +46,9 @@ function App() {
         <h1>Simple Calculator</h1> 
       </div> 
       <form> 
-        <p ref={resultRef}> 
+        <h4 ref={resultRef}> 
           {result}
-        </p> 
+        </h4> 
         <input
           pattern="[0-9]" 
           ref={inputRef} 
